@@ -8,7 +8,7 @@ int main() {
     int r
     float a;
     scanf("%d", &r);
-    a=(r*r*3.14);
+    a=(float)(r*r*3.14);
     printf("Area: %.2f", a);
     return 0;
 }
