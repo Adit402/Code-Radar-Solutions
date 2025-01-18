@@ -5,9 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int r,a;
+    int r
+    float a;
     scanf("%d", &r);
-    a=(float)(r*r*3.14);
+    a=(r*r*3.14);
     printf("Area: %.2f", a);
     return 0;
 }
