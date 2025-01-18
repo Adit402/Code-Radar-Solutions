@@ -5,10 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    int r;
+    int r,b;
     float a;
     scanf("%d", &r);
-    a=(float)(r*r*3.14);
+    b=pow(r,2);
+    a=(float)(b*3.14);
     printf("Area: %.2f", a);
     return 0;
 }
