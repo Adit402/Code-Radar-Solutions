@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+#include<math.h>
 char* welcome() {
     return "Welcome to Code Radar!";
 }
 
 int main() {
-    int r
-    int a;
+    int r;
+    float a;
     scanf("%d", &r);
     a=(float)(r*r*3.14);
     printf("Area: %.2f", a);
