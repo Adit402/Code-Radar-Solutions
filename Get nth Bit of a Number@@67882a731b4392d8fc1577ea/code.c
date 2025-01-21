@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int num,n;
-    scanf("%d %d", &a , &b);
+    scanf("%d %d", &num , &n);
     int bit_value=(num>>1) & 1;
     printf("%d", bit_value);
     return 0;
