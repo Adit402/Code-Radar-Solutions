@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     int num,n,a;
     scanf("%d %d", &num, &n);
-    a= 1<<n;
+    a= 1 << n;
     num=num^a;
-    printf("%d", a);
+    printf("%d", num);
     return 0;
 }
