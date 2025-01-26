@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,i;
+    int a,i,ctr;
     scanf("%d",&a);
     for(i=0;i<=a/2;i++){
         if(a%i==0){
@@ -13,10 +13,10 @@ int main() {
             break;
         }
         else{
-            continue;
+            ctr++;
         }
     }
-    if(i==a/2){
+    if(ctr>=a/2){
         printf("Prime");
     }
     return 0;
