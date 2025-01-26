@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char c;
     scanf("%c", &c);
-    if((c=='a')||(c=='e')||(c=='i')||(c=='o'||'O')||(c=='u')){
+    if((c=='a')||(c=='e')||(c=='i')||(c=='o')||(c=='u')){
         printf("Vowel");
     }
     else if(c>=48 && c<=57){
