@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int num,n;
     scanf("%d %d", &num,&n);
-    if(num>n){
+    if(num<n){
         printf("Profit");
     }
     else if(num==n){
