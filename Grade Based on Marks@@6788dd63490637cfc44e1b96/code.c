@@ -11,13 +11,13 @@ int main() {
     if(a==9){
         printf("A");
     }
-    else if(a==8){
+    else if(b==8){
         printf("B");
     }
-    else if(a==7){
+    else if(b==7){
         printf("C");
     }
-    else if(a==6){
+    else if(b==6){
         printf("D");
     }
     else{
