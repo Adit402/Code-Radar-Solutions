@@ -8,16 +8,16 @@ int main() {
     int a,b;
     scanf("%d", &a);
     b=a/10;
-    if(b==9){
+    if(a<=100 && a>=90){
         printf("A");
     }
-    else if(b==8){
+    else if(a<90 && a>=80){
         printf("B");
     }
-    else if(b==7){
+    else if(a<80 && a>=70){
         printf("C");
     }
-    else if(b==6){
+    else if(a<70 && a>=60){
         printf("D");
     }
     else{
