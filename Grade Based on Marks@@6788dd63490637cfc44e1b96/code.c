@@ -8,7 +8,7 @@ int main() {
     int a,b;
     scanf("%d", &a);
     b=a/10;
-    if(a==9){
+    if(b==9){
         printf("A");
     }
     else if(b==8){
