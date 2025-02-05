@@ -7,12 +7,8 @@ char* welcome() {
 int main() {
     int a,i,ctr=0;
     scanf("%d",&a);
-        if(a==2){
-            printf("Prime");}
-    for(i=2;i<a;i++){
-            break;
-        }
-        else if(a%i==0){
+    for(i=2;i<sqrt(a);i++){
+        if(a%1==0){
             printf("Not Prime");
             break;
         }
