@@ -11,7 +11,7 @@ int main() {
         printf("Lowercase");
     }
     else if(a==9){
-        printf("Not a number");
+        printf("Not an alphabet");
     }
     else{
         printf("Uppercase");
