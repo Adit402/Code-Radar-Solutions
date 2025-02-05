@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c", &a);
-    if(a==9){
+    if(a==57){
         printf("Not an alphabet");
     }
     else if((a<=122) && (a>=97)){
