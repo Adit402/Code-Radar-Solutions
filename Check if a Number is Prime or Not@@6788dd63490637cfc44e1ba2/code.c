@@ -8,7 +8,7 @@ int main() {
     int a,i,ctr=0;
     scanf("%d",&a);
         if(a==2){
-            printf("Prime");
+            printf("Prime");}
     for(i=2;i<a;i++){
             break;
         }
