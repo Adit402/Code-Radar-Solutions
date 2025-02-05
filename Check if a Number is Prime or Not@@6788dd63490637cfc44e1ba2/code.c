@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<math.h>
+
 char* welcome() {
     return "Welcome to Code Radar!";
 }
@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,i,ctr=0;
     scanf("%d",&a);
-    for(i=2;i<sqrt(a);i++){
+    for(i=2;i<a;i++){
         if(a%1==0){
             printf("Not Prime");
             break;
