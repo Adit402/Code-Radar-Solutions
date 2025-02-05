@@ -10,6 +10,9 @@ int main() {
     if((a<=122) && (a>=97)){
         printf("Lowercase");
     }
+    else if(a==9){
+        printf("Not a number");
+    }
     else{
         printf("Uppercase");
     }
