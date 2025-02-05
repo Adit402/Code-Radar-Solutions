@@ -16,7 +16,7 @@ int main() {
             ctr++;
         }
     }
-    if(ctr>=a){
+    if(ctr>=a/2){
         printf("Prime");
     }
     return 0;
