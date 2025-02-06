@@ -9,8 +9,8 @@ int main() {
     char j;
     scanf("%d",&n);
     for(i=0;i<n;i++){
-        for(j=122;j<122+n;j++){
-            printf("%c ",j);
+        for(j=0;j<i;j++){
+            printf("%c ",'A'+j);
         }
         printf("\n");
     }
