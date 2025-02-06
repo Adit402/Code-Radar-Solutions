@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&n);
     for(i=0;i<n;i++){
         for(j=97;j<97+n;j++){
-            printf("%d ",j);
+            printf("%c ",j);
         }
         printf("\n");
     }
