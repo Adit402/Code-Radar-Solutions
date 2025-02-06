@@ -13,7 +13,7 @@ int main() {
     else if(c=='B'){
         printf("Good");
     }
-    else if(a=='C'){
+    else if(c=='C'){
         printf("Average");
     }
     else if(c=='D'){
