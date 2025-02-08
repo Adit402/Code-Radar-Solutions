@@ -8,7 +8,7 @@ int main() {
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++){
+    for(i=1;i<=n;i++){
         if(a[i]>max){
             max=a[i];
         }
