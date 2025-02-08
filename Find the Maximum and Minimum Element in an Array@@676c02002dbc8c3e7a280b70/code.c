@@ -1,18 +1,15 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int n,i,j,min,max;
+    int n,i;
     scanf("%d",&n);
     int a[n];
+    int max=a[0],min=a[0];
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        if(a[i]>a[i+1]){
+        if(a[i]>max){
             max=a[i];
         }
         else{
