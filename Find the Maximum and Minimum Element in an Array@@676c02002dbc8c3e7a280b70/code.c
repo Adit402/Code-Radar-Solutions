@@ -5,10 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int n,a,i,min,max;
+    int n,a,i,j,min,max;
     scanf("%d",&n);
     for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
+        for(j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
+        }
     }
     for(i=0;i<n;i++){
         if(a[i]>a[i+1]){
