@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int n,a,i,j,min,max;
+    int n,a,i,min,max;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
@@ -18,7 +18,7 @@ int main() {
             min=a[i];
         }
     }
-    printf("%d",min);
-    printf(" %d",max);
+    printf("%d ",min);
+    printf("%d",max);
     return 0;
 }
