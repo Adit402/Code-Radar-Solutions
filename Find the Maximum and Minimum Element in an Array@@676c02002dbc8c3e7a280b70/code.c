@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int n,a,i,j,min,max;
+    int n,i,j,min,max;
     scanf("%d",&n);
+    int a[100][100];
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
             scanf("%d",&a[i][j]);
