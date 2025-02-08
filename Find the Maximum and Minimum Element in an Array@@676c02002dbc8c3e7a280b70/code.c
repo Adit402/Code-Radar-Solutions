@@ -1,22 +1,21 @@
 #include <stdio.h>
 
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
 int main() {
-    int n,i,j,min,max;
+    int n,a,i,j,min,max;
     scanf("%d",&n);
-    int a[100][100];
     for(i=0;i<n;i++){
-        for(j=0;j<n;j++){
-            scanf("%d",&a[i][j]);
-        }
+        scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        for(j=0;j<n;j++){
-            if(a[j]>a[j+1]){
-            max=a[j];
+        if(a[i]>a[i+1]){
+            max=a[i];
         }
         else{
-            min=a[j];
-        }
+            min=a[i];
         }
     }
     printf("%d ",min);
