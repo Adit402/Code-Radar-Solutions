@@ -5,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int n,a,i,j,min,max;
+    int n,i,j,min,max;
     scanf("%d",&n);
+    int a[n];
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
