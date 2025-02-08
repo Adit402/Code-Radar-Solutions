@@ -12,8 +12,14 @@ int main() {
         if(a[i]>max){
             max=a[i];
         }
+        else{
+            continue;
+        }
         if(a[i]<min){
             min=a[i];
+        }
+        else{
+            continue;
         }
     }
     printf("%d ",min);
