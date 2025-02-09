@@ -18,6 +18,9 @@ int main() {
             a[i+1]=temp;
         }
     }
-    printf("%d",a[j]);
+    for(i=0;i<=j;i++){
+        k=a[i];
+    }
+    printf("%d",k);
     return 0;
 }
