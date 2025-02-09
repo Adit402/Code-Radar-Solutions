@@ -11,7 +11,7 @@ int isPrime(int num){
             break;
         }
     }
-    if(ctr>num/2){
+    if(ctr>=num-1){
         printf("1");
     }
     return 0;
