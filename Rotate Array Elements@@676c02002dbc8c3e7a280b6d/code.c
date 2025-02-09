@@ -10,7 +10,7 @@ int main() {
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    for(j=1;j<=k;j++)
+    for(j=1;j<=k+1;j++)
     {
     temp=a[0];
     for(i=0;i<n-1;i++)
