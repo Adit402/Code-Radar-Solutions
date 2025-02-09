@@ -18,10 +18,10 @@ int main() {
             a[i]=a[i+1];
             a[i+1]=temp;
         }
-        else if(a[i]==a[i+1]){
-            printf("-1");
-            break;
-        }
+    }
+    if(a[i]==a[i+1]){
+        printf("-1");
+        break;
     }
     printf("%d",a[j]);
     return 0;
