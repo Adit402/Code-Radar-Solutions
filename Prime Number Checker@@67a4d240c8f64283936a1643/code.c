@@ -11,10 +11,10 @@ int isPrime(int num){
         }
     }
     if(ctr>=num-2){
-        printf("1");
+        return 1;
     }
     else{
-        printf("0");
+        return 0;
     }
     return 0;
 }
