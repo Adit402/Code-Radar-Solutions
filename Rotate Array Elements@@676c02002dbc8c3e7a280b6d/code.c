@@ -13,7 +13,7 @@ int main() {
     for(j=1;j<=k;j++)
     {
     temp=a[0];
-    for(i=0;i<n-2;i++)
+    for(i=0;i<n-1;i++)
     {
         a[i]=a[i+1];
     }
