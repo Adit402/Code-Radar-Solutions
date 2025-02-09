@@ -20,7 +20,7 @@ int main() {
         }
     }
     for(i=0;i<n;i++){
-        if(a[i]==a[i+1]){
+        if(a[i]==a[i+1] && a[i]==a[i-1]){
             printf("-1");
             return 0;
         }}
