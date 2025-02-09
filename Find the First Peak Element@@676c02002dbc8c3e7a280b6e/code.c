@@ -16,6 +16,10 @@ int main() {
             printf("%d",a[i]);
             break;
         }
+        else{
+            printf("-1");
+            break;
+        }
     }
     return 0;
 }
