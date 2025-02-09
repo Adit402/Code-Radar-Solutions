@@ -20,6 +20,7 @@ int main() {
         }
         else if(a[i]==a[i+1]){
             printf("-1");
+            break;
         }
     }
     printf("%d",a[j]);
