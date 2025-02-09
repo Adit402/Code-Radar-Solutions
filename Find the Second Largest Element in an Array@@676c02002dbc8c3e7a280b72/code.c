@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <limits.h>  // For INT_MIN
+#include <limits.h>  
 
 int main() {
     int n, i;
     scanf("%d", &n);
 
-    // Handle edge case for empty or single element arrays
     if (n <= 0) {
         printf("-1\n");
         return 0;
@@ -16,10 +15,8 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    // Initialize variables to track the highest and second highest values
     int highest = INT_MIN, second_highest = INT_MIN;
 
-    // Traverse the array to find the highest and second highest values
     for (i = 0; i < n; i++) {
         if (a[i] > highest) {
             second_highest = highest;
@@ -29,7 +26,6 @@ int main() {
         }
     }
 
-    // If second_highest is still INT_MIN, there is no valid second highest
     if (second_highest == INT_MIN) {
         printf("-1\n");
     } else {
