@@ -13,7 +13,7 @@ int main() {
     }
     for(i=0;i<n;i++){
         if(a[i]>a[i+1]){
-            printf("Not Sorted");
+            printf("Sorted");
             return 0;
         }
         else{
