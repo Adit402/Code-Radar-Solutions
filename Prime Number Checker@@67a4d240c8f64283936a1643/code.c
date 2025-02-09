@@ -10,7 +10,7 @@ int isPrime(int num){
             ctr++;
         }
     }
-    if(ctr>=num-1){
+    if(ctr>=num){
         return 1;
     }
     else{
