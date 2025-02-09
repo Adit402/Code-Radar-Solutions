@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 int isPrime(int num){
-    int i;
+    int i,ctr;
     for(i=2;i<num;i++){
-        if(num%i==0){
-            printf("0");
+        if(num%i!=0){
+            ctr++;
         }
         else{
-            printf("1");
+            printf("0");
+            break;
         }
+    }
+    if(ctr>num/2){
+        printf("1");
     }
     return 0;
 }
