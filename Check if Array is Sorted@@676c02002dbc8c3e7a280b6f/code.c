@@ -13,15 +13,13 @@ int main() {
     }
     for(i=0;i<n;i++){
         if(a[i]<=a[i+1]){
-            ctr++;
+            continue;
         }
         else{
             printf("Not Sorted");
-            break;
+            return 0;
         }
     }
-    if(ctr==n-1){
-        printf("Sorted");
-    }
+    printf("Sorted");
     return 0;
 }
