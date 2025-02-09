@@ -19,10 +19,11 @@ int main() {
             a[i+1]=temp;
         }
     }
-    if(a[i]==a[i+1]){
-        printf("-1");
-        break;
-    }
+    for(i=0;i<n;i++){
+        if(a[i]==a[i+1]){
+            printf("-1");
+            break;
+        }}
     printf("%d",a[j]);
     return 0;
 }
