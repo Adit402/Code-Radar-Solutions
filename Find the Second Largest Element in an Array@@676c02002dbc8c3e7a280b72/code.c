@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int n,i,temp;
+    int n,i,temp,j;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
@@ -17,7 +17,8 @@ int main() {
             a[i]=a[i+1];
             a[i+1]=temp;
         }
+        j=a[n-2];
     }
-    printf("%d",a[-2]);
+    printf("%d",j);
     return 0;
 }
