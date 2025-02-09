@@ -26,6 +26,7 @@ int main() {
         }}
     if(n=1){
         printf("-1");
+        return 0;
     }
     printf("%d",a[j]);
     return 0;
