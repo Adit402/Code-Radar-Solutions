@@ -12,7 +12,7 @@ int main() {
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){
-        if(a[i]<a[i+1]){
+        if(a[i]<=a[i+1]){
             ctr++;
         }
         else{
