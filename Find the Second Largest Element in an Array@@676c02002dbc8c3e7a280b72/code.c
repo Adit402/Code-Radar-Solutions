@@ -18,10 +18,8 @@ int main() {
             a[i]=a[i+1];
             a[i+1]=temp;
         }
+
     }
-    for(i=0;i<=j;i++){
-        k=a[i];
-    }
-    printf("%d",k);
+    printf("%d",a[j]);
     return 0;
 }
