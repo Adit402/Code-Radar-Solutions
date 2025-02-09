@@ -12,12 +12,12 @@ int main() {
     scanf("%d",&k);
     for(j=0;j<=k;j++)
     {
-    temp=a[0];
-    for(i=0;i<n-1;i++)
+    temp=a[n-1];
+    for(i=n-1;i>0;i--)
     {
-        a[i]=a[i+1];
+        a[i]=a[i-1];
     }
-    a[n-1]=temp;
+    a[0]=temp;
     }
 
     for(i=0;i<n;i++)
