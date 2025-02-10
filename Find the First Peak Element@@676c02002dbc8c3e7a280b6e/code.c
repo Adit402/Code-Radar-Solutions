@@ -25,16 +25,16 @@ int main() {
         return 0;
     }
 
-    if (a[n - 1] >= a[n - 2]) {
-        printf("%d\n", a[n - 1]);
-        return 0;
-    }
 
     for (i = 1; i < n - 1; i++) {
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
             printf("%d\n", a[i]);
             return 0;
         }
+    }
+    if (a[n - 1] >= a[n - 2]) {
+        printf("%d\n", a[n - 1]);
+        return 0;
     }
 
     printf("-1\n");
