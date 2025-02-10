@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     int lowestSetBit = n & -n;
 
-    printf("The lowest set bit of %d is: %d\n", n, lowestSetBit);
+    printf("%d", lowestSetBit);
     
     return 0;
 }
