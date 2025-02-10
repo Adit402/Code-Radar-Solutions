@@ -20,7 +20,7 @@ int main() {
         return 0;
     }
 
-    if (a[0] >= a[1]) {
+    if (a[0] > a[1]) {
         printf("%d\n", a[0]);
         return 0;
     }
