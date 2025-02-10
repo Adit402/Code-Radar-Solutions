@@ -5,10 +5,10 @@ int main() {
     scanf("%d", &n);
 
     if (n == 0) {
-        printf("No set bits in 0\n");
+        printf("0");
     } else {
         int lowestSetBit = n & -n;
-        printf("%d\n", lowestSetBit);
+        printf("%d", lowestSetBit);
     }
     
     return 0;
