@@ -2,10 +2,14 @@
 
 int main() {
     int n;
-    scanf("%d",&n);
-    int lowestSetBit = n & -n;
+    scanf("%d", &n);
 
-    printf("%d", lowestSetBit);
+    if (n == 0) {
+        printf("No set bits in 0\n");
+    } else {
+        int lowestSetBit = n & -n;
+        printf("%d\n", lowestSetBit);
+    }
     
     return 0;
 }
