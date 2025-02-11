@@ -10,9 +10,9 @@ int setNthBit(int num, int n) {
 }
 
 int main() {
-    int num = 5;  
+    int num;  
     int n;    
-    scanf("%d",&n);
+    scanf("%d %d",&num,&n);
     int result = setNthBit(num, n);
     printf("%d",  result);
     
