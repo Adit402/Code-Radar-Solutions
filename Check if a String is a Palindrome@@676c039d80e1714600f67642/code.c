@@ -18,7 +18,7 @@ int main() {
             return 0;
         }
     }
-    if(j>len/2){
+    if(j>0){
         printf("Yes");
     }
     return 0;
