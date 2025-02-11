@@ -6,11 +6,8 @@ int main() {
     char str[100];
     fgets(str,sizeof(str),stdin);
     len=strlen(str);
-    for(i=0;i<len;i++){
-        char ch,rev;
-        ch=str[i];
-        rev=str[len];
-        if(ch==rev){
+    for(i=0;i<len/2;i++){
+        if(str[i]==str[len-1-i]){
             j++;
         }
         else{
@@ -18,7 +15,7 @@ int main() {
             return 0;
         }
     }
-    if(j>0){
+    if(j>len/2){
         printf("Yes");
     }
     return 0;
