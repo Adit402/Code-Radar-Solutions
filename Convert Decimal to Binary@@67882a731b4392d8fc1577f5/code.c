@@ -29,7 +29,7 @@ int main() {
     unsigned int number;
     
     scanf("%u", &number);
-    printf("Binary representation: ");
+    printf("");
     print_binary(number);
 
     return 0;
