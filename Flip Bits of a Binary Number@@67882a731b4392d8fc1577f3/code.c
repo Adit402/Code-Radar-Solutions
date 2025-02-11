@@ -6,7 +6,7 @@ unsigned int flip_bits(unsigned int n) {
 
 int main() {
     unsigned int number;
-    scanf("%d",&number);
+    scanf("%u",&number);
     printf("%u", flip_bits(number));
 
     return 0;
