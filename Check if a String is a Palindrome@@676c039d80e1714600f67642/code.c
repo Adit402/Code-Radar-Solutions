@@ -5,7 +5,9 @@ int main() {
     int len,i,j=0;
     char str[100];
     fgets(str,sizeof(str),stdin);
+    str[strcspn(str, "\n")] = '\0';
     len=strlen(str);
+    
     for(i=0;i<len/2;i++){
         if(str[i]==str[len-1-i]){
             j++;
