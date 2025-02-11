@@ -10,7 +10,7 @@ int main() {
         char ch,rev;
         ch=str[i];
         rev=str[len];
-        if(ch=rev){
+        if(ch==rev){
             j++;
         }
         else{
