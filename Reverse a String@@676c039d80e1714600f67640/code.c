@@ -8,12 +8,9 @@ void reverseString(char str[]) {
     char temp;
 
     while (start < end) {
-        // Swap characters at start and end
         temp = str[start];
         str[start] = str[end];
         str[end] = temp;
-        
-        // Move towards the middle
         start++;
         end--;
     }
