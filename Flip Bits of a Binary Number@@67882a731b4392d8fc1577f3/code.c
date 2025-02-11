@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-unsigned int flip_bits(unsigned int n) {
-    return ~n;
+int flipBits(int num) {
+    return ~num;
 }
 
 int main() {
-    unsigned int number;
-    scanf("%u",&number);
-    printf("%u", flip_bits(number));
-
+    int num = 5;  
+    
+    int result = flipBits(num);
+    printf("Original number: %d\n", num);
+    printf("After flipping the bits: %d\n", result);
+    
     return 0;
 }
