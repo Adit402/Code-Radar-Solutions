@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
+#include<string.h>
 int main() {
     char str[100];
     gets(str);
