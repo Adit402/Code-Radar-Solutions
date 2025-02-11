@@ -5,8 +5,8 @@ int flipBits(int num) {
 }
 
 int main() {
-    int num = 5;  
-    
+    int num;  
+    scanf("%d",&num);
     int result = flipBits(num);
     printf("%d", result);
     
