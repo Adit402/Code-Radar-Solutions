@@ -8,7 +8,7 @@ int main(){
         if(a[i]==2){
             ctr++;
         }
-        else if(a[i]%3!=0 && a[i]%5!=0 && a[i]%2!=0){
+        else if((a[i]%3!=0) && (a[i]%5!=0) && (a[i]%2!=0)){
             ctr++;
         }
         else{
