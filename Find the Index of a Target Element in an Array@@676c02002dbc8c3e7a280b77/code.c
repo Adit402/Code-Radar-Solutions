@@ -11,7 +11,9 @@ int main(){
     for(i=0;i<n;i++){
         if(a[i]==num){
             printf("%d",i);
+            return 0;
         }
     }
+    printf("-1");
     return 0;
 }
