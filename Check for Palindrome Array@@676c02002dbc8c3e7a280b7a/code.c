@@ -8,6 +8,9 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
+    if(n==1){
+        printf("Yes");
+    }
     for(i=0;i<n/2;i++){
         if(a[i]==a[j]){
             ctr++;
