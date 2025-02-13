@@ -8,9 +8,9 @@ int main(){
         if(a[i]==2){
             ctr++;
         }
-        else if(n%i!=0)[
+        else if(n%i!=0){
             ctr++;
-        ]
+        }
         else{
             printf("0");
             return 0;
