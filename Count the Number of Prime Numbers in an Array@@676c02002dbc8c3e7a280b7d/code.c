@@ -14,10 +14,6 @@ int main(){
         else if((a[i]%3!=0) && (a[i]%5!=0) && (a[i]%2!=0)){
             ctr++;
         }
-        else{
-            printf("0");
-            return 0;
-        }
     }
     printf("%d", ctr);
     return 0;
