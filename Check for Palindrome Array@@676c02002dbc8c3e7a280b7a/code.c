@@ -21,4 +21,5 @@ int main(){
     if(ctr>0){
         printf("YES");
     }
+    return 0;
 }
