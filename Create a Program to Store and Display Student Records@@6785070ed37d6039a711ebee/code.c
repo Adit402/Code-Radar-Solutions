@@ -7,7 +7,7 @@ struct students{
 }s;
 
 int main(){
-    int n;
+    int n,i;
     scanf("%d", &n);
     struct student s[n];
     for(i=0;i<n;i++){
