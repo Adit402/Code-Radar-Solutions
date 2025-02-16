@@ -13,6 +13,9 @@ int main(){
     tem temp[n];
     for(i=0;i<n;i++){
         scanf("%d %s %f", &temp[i].rollno, temp[i].name, &temp[i].marks);
+        if(temp[i].name==0){
+            printf("Student not found");
+        }
     }
     scanf("%d", &x);
     for(i=0;i<n;i++){
