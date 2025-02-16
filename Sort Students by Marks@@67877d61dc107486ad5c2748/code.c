@@ -24,8 +24,8 @@ int main(){
             s[i+1].marks=s[i].marks;
             s[i].roll_number=s[i+1].roll_number;
             s[i+1].roll_number=j;
-            s[i].name=s[i+1].name;
-            s[i+1].name=str;
+            // s[i].name=s[i+1].name;
+            // s[i+1].name=str;
         }
     }
     for(i=0;i<n;i++){
