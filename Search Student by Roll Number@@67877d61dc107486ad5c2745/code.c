@@ -8,19 +8,22 @@ struct student{
 typedef struct student tem;
 
 int main(){
-    int x,n,i;
+    int x,n,i,ctr=0;
     scanf("%d", &n);
     tem temp[n];
     for(i=0;i<n;i++){
         scanf("%d %s %f", &temp[i].rollno, temp[i].name, &temp[i].marks);
-        if(temp[i].name==0){
-            printf("Student not found");
-        }
     }
     scanf("%d", &x);
     for(i=0;i<n;i++){
         if(temp[i].rollno==x){
             printf("Roll Number: %d, Name: %s, Marks: %.2f", temp[i].rollno, temp[i].name, temp[i].marks);
         }
+        else{
+            ctr++;
+        }
+    }
+    if(ctr==0){
+        printf("Student not found");
     }
 }
