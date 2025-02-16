@@ -14,10 +14,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d %s %f", &s[i].roll_number, s[i].name, &s[i].marks);
     }
-    if(n==1){
-        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f", s.roll_number, s.name,s.marks);
-        return 0;
-    }
+    
     for(i=0;i<n-1;i++){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
@@ -27,6 +24,10 @@ int main(){
         }
     }
     for(i=0;i<n;i++){
+        if(n==1){
+        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f", s.roll_number, s.name,s.marks);
+        return 0;
+    }
         if(s[i].marks==sum){
             printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f", s[i].roll_number, s[i].name,s[i].marks);
         }
