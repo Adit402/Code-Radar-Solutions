@@ -16,7 +16,7 @@ int main(){
     }
     scanf("%f", &x);
     for(i=0;i<n;i++){
-        if(marks>x){
+        if(s[i].marks>x){
             ctr++;
         }
     }
