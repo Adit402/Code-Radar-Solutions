@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<string.h>
 struct students{
     int roll_number;
     char name[20];
@@ -19,13 +19,13 @@ int main(){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
             j=s[i].roll_number;
-            //str=s[i].name;
+            str.cpy(s[i].name);
             s[i].marks=s[i+1].marks;
             s[i+1].marks=s[i].marks;
             s[i].roll_number=s[i+1].roll_number;
             s[i+1].roll_number=j;
-            // s[i].name=s[i+1].name;
-            // s[i+1].name=str;
+            s[i].name.cpy(s[i+1].name);
+            s[i+1].name.cpy(str);
         }
     }
     for(i=0;i<n;i++){
