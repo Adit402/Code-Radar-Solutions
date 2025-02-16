@@ -7,8 +7,9 @@ struct students{
 };
 
 int main(){
-    int n,i;
+    int n,i,j;
     float sum;
+    char str[20];
     scanf("%d", &n);
     struct students s[n];
     for(i=0;i<n;i++){
@@ -18,6 +19,12 @@ int main(){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
             s[i+1].marks=s[i].marks;
+            j=s[i].roll_number;
+            s[i].roll_number=s[i+1].roll_number;
+            s[i+1].roll_number=j;
+            str=s[i].name;
+            s[i].name=s[i+1].name;
+            s[i+1].name=str;
         }
     }
     for(i=0;i<n;i++){
