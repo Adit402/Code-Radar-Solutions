@@ -24,7 +24,7 @@ int main(){
             ctr++;
         }
     }
-    if(ctr==0){
+    if(ctr!=0){
         printf("Student not found");
     }
 }
