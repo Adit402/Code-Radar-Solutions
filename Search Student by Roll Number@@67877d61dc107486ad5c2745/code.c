@@ -18,6 +18,7 @@ int main(){
     for(i=0;i<n;i++){
         if(temp[i].rollno==x){
             printf("Roll Number: %d, Name: %s, Marks: %.2f", temp[i].rollno, temp[i].name, temp[i].marks);
+            return 0;
         }
         else{
             ctr++;
