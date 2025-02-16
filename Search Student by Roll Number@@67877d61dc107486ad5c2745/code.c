@@ -5,11 +5,12 @@ struct student{
     char name[20];
     float marks;
 };
-typedef struct student temp;
+typedef struct student tem;
 
 int main(){
     int x,n,i;
     scanf("%d", &n);
+    tem temp[n];
     for(i=0;i<n;i++){
         scanf("%d %s %f", &temp[i].rollno, temp[i].name, &temp[i].marks);
     }
