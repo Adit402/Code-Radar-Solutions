@@ -19,7 +19,7 @@ int main(){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
             j=s[i].roll_number;
-            str=s[i].name;
+            //str=s[i].name;
             s[i].marks=s[i+1].marks;
             s[i+1].marks=s[i].marks;
             s[i].roll_number=s[i+1].roll_number;
