@@ -14,7 +14,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d %s %f", &s[i].roll_number, s[i].name, &s[i].marks);
     }
-    for(i=0;i<n;i++){
+    for(i=0;i<n-1;i++){
         if(s[i].marks>s[i+1].marks){
             sum=s[i].marks;
             s[i+1].marks=s[i].marks;
