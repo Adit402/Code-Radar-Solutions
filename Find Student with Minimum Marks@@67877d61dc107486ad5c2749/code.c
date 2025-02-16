@@ -25,7 +25,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(n==1){
-        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f", s.roll_number, s.name,s.marks);
+        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f", s[0].roll_number, s[0].name,s[0].marks);
         return 0;
     }
         if(s[i].marks==sum){
