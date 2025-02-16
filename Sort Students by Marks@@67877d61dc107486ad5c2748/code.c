@@ -18,12 +18,12 @@ int main(){
     for(i=0;i<n-1;i++){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
+            j=s[i].roll_number;
+            str=s[i].name;
             s[i].marks=s[i+1].marks;
             s[i+1].marks=s[i].marks;
-            j=s[i].roll_number;
             s[i].roll_number=s[i+1].roll_number;
             s[i+1].roll_number=j;
-            str=s[i].name;
             s[i].name=s[i+1].name;
             s[i+1].name=str;
         }
