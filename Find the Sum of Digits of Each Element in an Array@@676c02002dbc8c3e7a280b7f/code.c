@@ -9,6 +9,11 @@ int main(){
     }
     int sum=0,j;
     for(i=0;i<n;i++){
+        if(a[i]<0){
+            a[i]=-a[i];
+        }
+    }
+    for(i=0;i<n;i++){
         while(a[i]>0){
             j=a[i]%10;
             sum+=j;
