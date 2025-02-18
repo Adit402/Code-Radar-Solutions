@@ -5,7 +5,7 @@ struct rectangle{
 };
 
 
-int main{
+int main(){
     int i,n;
     scanf("%d", &n);
     struct rectangle area[n];
@@ -17,6 +17,6 @@ int main{
         float perimeter = 2*(area[i].l+area[i].b);
     }
     for(i=1;i<=n;i++){
-        printf("Rectange %d: Area = %.2f, Perimeter = %.2f", i, a, perimeter);
+        printf("Rectange %d: Area = %.2f, Perimeter = %.2f\n", i, a, perimeter);
     }
 }
