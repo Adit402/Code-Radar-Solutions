@@ -8,10 +8,10 @@ struct rectangle{
 int main{
     int i,n;
     scanf("%d", &n);
+    struct rectangle area[n];
     for(i=0;i<n;i++){
         scanf("%d %d", &area[i].l, &area[i].b);
     }
-    rectangle area[n];
     for(i=0;i<n;i++){
         float a= area[i].l*area[i].b;
         float perimeter = 2*(area[i].l+area[i].b);
