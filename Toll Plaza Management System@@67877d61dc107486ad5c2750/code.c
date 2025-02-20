@@ -29,5 +29,5 @@ int main(){
             price=price+b[i].d;
         }
     }
-    printf("Cars: %.2f, Trucks: %.2f, Bikes: %2f", pr,pri,price);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f", pr,pri,price);
 }
