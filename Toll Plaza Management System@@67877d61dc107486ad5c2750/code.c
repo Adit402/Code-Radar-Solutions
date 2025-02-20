@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 struct toll{
-    int a;
+    char a[20];
     char vehicle[20];
     int d;
 };
@@ -13,7 +13,7 @@ int main(){
     float price=0,pr=0,pri=0;
     int i;
     for(i=0;i<n;i++){
-        scanf("%d %s %d", &b[i].a, b[i].vehicle, &b[i].d);
+        scanf("%d %s %d", b[i].a, b[i].vehicle, &b[i].d);
     }
     for(i=0;i<n;i++){
         if(b[i].vehicle== "Car"){
