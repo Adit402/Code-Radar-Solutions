@@ -21,12 +21,18 @@ int main(){
     for(i=0;i<n;i++){
         if(b[i].vehicle=="Car"){
             pr=pr+b[i].d;
+            pri=0;
+            price=0;
         }
         else if(b[i].vehicle=="Truck"){
             pri=pri+b[i].d;
+            price=0;
+            pr=0;
         }
         else{
             price=price+b[i].d;
+            pr=0;
+            pri=0;
         }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %2f", pr,pri,price);
