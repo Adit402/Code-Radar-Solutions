@@ -10,7 +10,10 @@ int main(){
     int n;
     scanf("%d", &n);
     struct toll b[n];
-    float price=0,pr=0,pri=0;
+    float price,pr,pri;
+    price=0;
+    pr=0;
+    pri=0;
     int i;
     for(i=0;i<n;i++){
         scanf("%d %s %d", b[i].a, b[i].vehicle, &b[i].d);
