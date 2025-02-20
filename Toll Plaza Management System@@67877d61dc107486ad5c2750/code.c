@@ -23,7 +23,7 @@ int main(){
             pri+= b[i].d;
         }
         else{
-            price+=a[i].d;
+            price+=b[i].d;
         }
     }
     for(i=0;i<n;i++){
