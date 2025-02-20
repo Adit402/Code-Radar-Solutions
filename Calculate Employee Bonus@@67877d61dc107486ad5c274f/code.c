@@ -16,7 +16,7 @@ int main(){
         scanf("%d %s %d",&a[i].a, a[i].name, &a[i].b);
     }
     for(i=0;i<n;i++){
-        if(a[i].b>50000){
+        if(a[i].b>=50000){
             temp = a[i].b*0.05;
         }
         else{
