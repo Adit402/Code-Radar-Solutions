@@ -26,7 +26,5 @@ int main(){
             price+=b[i].d;
         }
     }
-    for(i=0;i<n;i++){
-        printf("Cars: %.2f, Trucks: %.2f, Bikes: %2f\n", pr,pri,price);
-    }
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %2f\n", pr,pri,price);
 }
