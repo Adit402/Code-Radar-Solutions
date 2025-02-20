@@ -16,11 +16,11 @@ int main(){
         scanf("%d %s %d", &b[i].a, b[i].vehicle, &b[i].d);
     }
     for(i=0;i<n;i++){
-        if(a[i].vehicle== 'Car'){
-            pr+=a[i].d;
+        if(b[i].vehicle== 'Car'){
+            pr+=b[i].d;
         }
-        else if(a[i].vehicle=='Truck'){
-            pri+= a[i].d;
+        else if(b[i].vehicle=='Truck'){
+            pri+= b[i].d;
         }
         else{
             price+=a[i].d;
