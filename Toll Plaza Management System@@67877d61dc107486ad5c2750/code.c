@@ -19,7 +19,7 @@ int main(){
         scanf("%d %s %d", b[i].a, b[i].vehicle, &b[i].d);
     }
     for(i=0;i<n;i++){
-        if(b[i].vehicle== "Car"){
+        if(b[i].vehicle=="Car"){
             pr+=b[i].d;
         }
         else if(b[i].vehicle=="Truck"){
