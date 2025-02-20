@@ -17,4 +17,5 @@ int main(){
         sum+=a[i].t;
     }
     printf("Average Temperature: %.2f", sum/7.00);
+    return 0;
 }
