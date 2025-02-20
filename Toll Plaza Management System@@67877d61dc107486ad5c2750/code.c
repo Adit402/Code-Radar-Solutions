@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<string.h>
 struct toll{
     char a[20];
     char vehicle[20];
@@ -19,10 +19,10 @@ int main(){
         scanf("%s %s %d", b[i].a, b[i].vehicle, &b[i].d);
     }
     for(i=0;i<n;i++){
-        if(b[i].vehicle=="Car"){
+        if(strcmp(b[i].vehicle,"Car")==0){
             pr=pr+b[i].d;
         }
-        else if(b[i].vehicle=="Truck"){
+        else if(strcmp(b[i].vehicle,"Truck")==0){
             pri=pri+b[i].d;
         }
         else{
