@@ -20,7 +20,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(b[i].vehicle=="Car"){
-            pr+=b[i].d;
+            pr=pr+b[i].d;
         }
         else if(b[i].vehicle=="Truck"){
             pri+= b[i].d;
