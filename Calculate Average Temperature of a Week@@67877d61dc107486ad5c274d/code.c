@@ -7,7 +7,6 @@ struct temp{
 
 int main(){
     int i;
-    scanf("%d",&n);
     struct temp a[7];
     for(i=0;i<7;i++){
         scanf("%s %d", a[i].day, &a[i].t);
