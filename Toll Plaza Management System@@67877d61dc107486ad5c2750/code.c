@@ -16,7 +16,7 @@ int main(){
     pri=0;
     int i;
     for(i=0;i<n;i++){
-        scanf("%d %s %d", b[i].a, b[i].vehicle, &b[i].d);
+        scanf("%s %s %d", b[i].a, b[i].vehicle, &b[i].d);
     }
     for(i=0;i<n;i++){
         if(b[i].vehicle=="Car"){
