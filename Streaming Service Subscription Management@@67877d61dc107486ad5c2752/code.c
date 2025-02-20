@@ -32,5 +32,5 @@ int main(){
             c++;
         }
     }
-    printf("Basic: %d Users, Revenue: %.1f, Standard: %d Users, Revenue: %.1f, Premium: %d Users Revenue: %.1f",e, pr,f,pri,c,price);
+    printf("Basic: %d Users, Revenue: %.2f, Standard: %d Users, Revenue: %.2f, Premium: %d Users Revenue: %.2f",e, pr,f,pri,c,price);
 }
