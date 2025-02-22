@@ -20,12 +20,12 @@ int main(){
             sum=s[i].marks;
             j=s[i].roll_number;
             strcpy(s[i].name,str);
+            strcpy(s[i+1].name,s[i].name);
+            strcpy(str,s[i+1].name);
             s[i].marks=s[i+1].marks;
             s[i+1].marks=s[i].marks;
             s[i].roll_number=s[i+1].roll_number;
             s[i+1].roll_number=j;
-            s[i].name.cpy(s[i+1].name);
-            s[i+1].name.cpy(str);
         }
     }
     for(i=0;i<n;i++){
