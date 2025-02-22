@@ -19,7 +19,7 @@ int main(){
         if(s[i].marks<s[i+1].marks){
             sum=s[i].marks;
             j=s[i].roll_number;
-            strcpy(str,s[i].name);
+            strcpy(s[i].name,str);
             s[i].marks=s[i+1].marks;
             s[i+1].marks=s[i].marks;
             s[i].roll_number=s[i+1].roll_number;
