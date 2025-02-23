@@ -23,5 +23,5 @@ int main(){
             return 0;
         }
     }
-    printf("All PAssed");
+    printf("All Passed");
 }
