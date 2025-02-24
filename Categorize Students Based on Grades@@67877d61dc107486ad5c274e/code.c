@@ -14,7 +14,7 @@ int main(){
         scanf("%d %s %f", &s[i].roll_number, s[i].name, &s[i].marks);
     }
     for(i=0;i<n;i++){
-        if(s[i].marks>=84){
+        if(s[i].marks>=85){
             printf("Roll Number: %d, Name: %s, Grade: A\n",s[i].roll_number,s[i].name);
         }
         else if(s[i].marks<85 && s[i].marks>=70){
