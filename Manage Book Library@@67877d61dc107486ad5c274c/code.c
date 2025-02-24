@@ -19,4 +19,5 @@ int main(){
             printf("Title: %s, Author: %s, Price: %.2f\n", s[i].name,s[i].str, s[i].a);
         }
     }
+    return 0;
 }
