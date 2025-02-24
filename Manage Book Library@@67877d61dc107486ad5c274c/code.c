@@ -6,7 +6,7 @@ struct books{
 }
 int main(){
     int n,i;
-    float num
+    float num;
     scanf("%d", &n);
     struct books s[n];
     for(i=0;i<n;i++){
