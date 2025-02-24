@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n,i,j,temp;
+    int n,i,j,temp,k;
     scanf("%d", &n);
     int a[n];
     for(i=0;i<n;i++){
@@ -16,5 +16,6 @@ int main(){
             }
         }
     }
-    printf("%d", a[n-1]*a[n-2]);
+    k=a[n-1]*a[n-2];
+    printf("%d", k);
 }
