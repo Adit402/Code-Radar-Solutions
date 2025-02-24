@@ -3,7 +3,7 @@
 struct books{
     char name[20],str[20];
     float a;
-}
+};
 int main(){
     int n,i;
     float num;
