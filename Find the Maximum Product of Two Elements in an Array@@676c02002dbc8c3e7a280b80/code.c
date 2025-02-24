@@ -6,8 +6,8 @@ int main(){
     int a[n];
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]<0){
-            a[i]= -a[i];
+        if(a[3]<0){
+            a[3]= -a[3];
         }
     }
     for(i=0;i<n;i++){
