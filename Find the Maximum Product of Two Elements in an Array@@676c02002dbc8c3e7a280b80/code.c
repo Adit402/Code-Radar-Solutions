@@ -7,7 +7,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
         if(a[i]<0){
-            a[i]= -a[i]
+            a[i]= -a[i];
         }
     }
     for(i=0;i<n;i++){
