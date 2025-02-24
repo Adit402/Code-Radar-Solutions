@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &n);
     struct books s[n];
     for(i=0;i<n;i++){
-        scanf("%s %s %f", s[i].name, s[i].str, s[i].a);
+        scanf("%s %s %f", s[i].name, s[i].str, &s[i].a);
     }
     scanf("%f", &num);
     printf("Books above price %.2f:\n", num);
