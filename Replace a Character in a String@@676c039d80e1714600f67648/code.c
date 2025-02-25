@@ -10,7 +10,7 @@ int main(){
     for(i=0;str[i]!='\0';i++){
         ch=str[i];
         if(ch==ss){
-            ch==s;
+            ch=s;
             strcpy(s,str[i]);
         }
     }
