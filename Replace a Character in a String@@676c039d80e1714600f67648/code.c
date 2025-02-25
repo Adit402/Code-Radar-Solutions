@@ -10,8 +10,9 @@ int main(){
     for(i=0;str[i]!='\0';i++){
         ch=str[i];
         if(ch==ss){
-            str[i]==s;
+            ch==s;
+            str[i]=ch;
         }
     }
     printf("%s", str);
-}
+} 
