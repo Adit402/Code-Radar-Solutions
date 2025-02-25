@@ -11,7 +11,5 @@ int main(){
             str[i]==s;
         }
     }
-    for(i=0;i<num;i++){
-        printf("%s", str);
-    }
+    printf("%s", str);
 }
