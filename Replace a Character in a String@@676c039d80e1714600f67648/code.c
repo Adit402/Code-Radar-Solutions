@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char str[100],a,s;
+    fget(str, sizeof(str), stdin);
+    scanf("%c %c", &a,&s);
+    int i,num;
+    num=strlen(str);
+    for(i=0;i<num;i++){
+        if(str[i]==a){
+            str[i]==s;
+        }
+    }
+    for(i=0;i<num;i++){
+        printf("%s", str);
+    }
+}
