@@ -10,8 +10,7 @@ int main(){
     for(i=0;str[i]!='\0';i++){
         ch=str[i];
         if(ch==ss){
-            ch=s;
-            strcpy(s,str[i]);
+            str[i]=s;
         }
     }
     printf("%s", str);
