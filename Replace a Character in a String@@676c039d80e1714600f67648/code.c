@@ -11,7 +11,7 @@ int main(){
         ch=str[i];
         if(ch==ss){
             ch==s;
-            str[i]=ch;
+            strcpy(s,str[i]);
         }
     }
     printf("%s", str);
