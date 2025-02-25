@@ -7,7 +7,7 @@ int main(){
     int i,num;
     ss=a;
     num=strlen(str);
-    for(i=0;i<num;i++){
+    for(i=0;str[i]!='\0';i++){
         ch=str[i];
         if(ch==ss){
             str[i]==s;
