@@ -5,11 +5,9 @@ int main(){
     fgets(str, sizeof(str), stdin);
     scanf("%c %c", &a,&s);
     int i,num;
-    ss=a;
     num=strlen(str);
     for(i=0;str[i]!='\0';i++){
-        ch=str[i];
-        if(ch==ss){
+        if(str[i]==a){
             str[i]=s;
         }
     }
