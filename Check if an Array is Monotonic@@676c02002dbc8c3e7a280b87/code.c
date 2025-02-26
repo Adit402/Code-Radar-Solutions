@@ -23,7 +23,7 @@ int main(){
         }
     }
     // printf("NO");
-    if(ctr>n-1){
+    if(ctr>=n-1){
         printf("NO");
     }
     else{
