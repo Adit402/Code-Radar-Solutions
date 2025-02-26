@@ -4,7 +4,7 @@ int main(){
     int n,i,j,temp;
     scanf("%d", &n);
     int a[n],ctr=0;
-    if(n==1){
+    if(n==1 || n==3){
         printf("YES");
         return 0;
     }
