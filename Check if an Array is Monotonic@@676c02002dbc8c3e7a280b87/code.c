@@ -13,10 +13,10 @@ int main(){
                 ctr++;
             }
             else{
-                printf("NO");
+                printf("YES");
                 return 0;
             }
         }
     }
-    printf("YES");
+    printf("NO");
 }
