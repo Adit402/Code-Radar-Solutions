@@ -16,17 +16,11 @@ int main(){
                 a[j+1]=temp;
                 ctr++;
             }
-            // else{
-            //     printf("YES");
-            //     return 0;
-            // }
+            else{
+                printf("YES");
+                return 0;
+            }
         }
     }
-    // printf("NO");
-    if(ctr>n-2){
-        printf("NO");
-    }
-    else{
-        printf("YES");
-    }
+    printf("NO");
 }
