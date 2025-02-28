@@ -5,12 +5,14 @@ int main(){
     int a[n];
     for(i=0;i<n;i++){
         scanf("%d", &a[i]);
+    }
+    for(i=0;i<n;i++){
         while(a[i]>0){
             digit=a[i]%10;
             l= 10*l+digit;
             a[i]= a[i]/10;
         }
-        if(a[i]==l){
+        if(l==a[i]){
             count++;
         }
         l=0;
