@@ -15,7 +15,7 @@ int main(){
         if(l==a[i]){
             count++;
         }
-        l=0;
+        
     }
     printf("%d", count);
 
