@@ -9,13 +9,13 @@ int main(){
     for(i=0;i<n;i++){
         while(a[i]>0){
             digit=a[i]%10;
-            l= 10*l+digit;
+            l= l*10 +digit;
             a[i]= a[i]/10;
         }
         if(l==a[i]){
             count++;
         }
-        
+        l=0;
     }
     printf("%d", count);
 
