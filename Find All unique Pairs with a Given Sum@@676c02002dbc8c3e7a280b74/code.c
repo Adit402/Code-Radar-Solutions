@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,n,j,count,sum=0;
+    int i,n,j;
     scanf("%d", &n);
     int a[n];
     for(i=0;i<n;i++){
@@ -15,5 +15,4 @@ int main(){
             
         }
     }
-    return 0;
 }
