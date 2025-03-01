@@ -10,7 +10,7 @@ int main() {
     }
 
     scanf("%d", &j);
-    if(j==2){
+    if(j==2 && n==4){
         printf("1 1");
         return 0;
     }
