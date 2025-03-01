@@ -8,15 +8,13 @@ int main(){
     }
     scanf("%d", &j);
     count= n-1;
-    for(i=0;i<n;i++){
-        for(int k=0;k<n;k++){
+    for(i=0;i<n/2;i++){
             if(count<1)
             break;
-            sum= a[k]+a[count];
+            sum= a[i]+a[count];
             count--;
             if(sum==j){
-                printf("%d %d\n",a[k], a[count]);
-            }
+                printf("%d %d\n",a[i], a[count]);
         }
     }
 }
