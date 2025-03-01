@@ -13,10 +13,9 @@ int main() {
     }
 
     int found = 0;
-    printf("Duplicate elements and their counts:\n");
     for (i = 0; i < MAX; i++) {
         if (hash[i] > 1) {
-            printf("%d appears %d times\n", i, hash[i]);
+            printf("%d " hash[i]);
             found = 1;
         }
     }
