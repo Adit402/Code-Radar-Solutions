@@ -9,12 +9,10 @@ int main(){
     scanf("%d", &j);
     count= n-1;
     for(i=0;i<n/2;i++){
-            if(count<i)
-            break;
             sum= a[i]+a[count];
             count--;
             if(sum==j){
                 printf("%d %d\n",a[i], a[count]);
-        }
+            }
     }
 }
