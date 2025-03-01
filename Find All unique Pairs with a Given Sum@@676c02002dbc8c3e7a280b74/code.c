@@ -1,23 +1,20 @@
-#include <stdio.h>
-
-int main() {
-    int i, n, j;
+#include<stdio.h>
+int main(){
+    int i,n,j,count,sum=0;
     scanf("%d", &n);
     int a[n];
-
-    for (i = 0; i < n; i++) {
+    for(i=0;i<n;i++){
         scanf("%d", &a[i]);
     }
-
     scanf("%d", &j);
+    count= n-1;
+    for(i=0;i<n/2;i++){
 
-    for (i = 0; i < n; i++) {
-        for (int k = i + 1; k < n; k++) {  // Loop to check pairs (i, k) where k > i
-            if (a[i] + a[k] == j) {
-                printf("%d %d\n", a[i], a[k]);
+            sum= a[i]+a[count];
+            count--;
+            if(sum==j){
+                printf("%d %d\n",a[i], a[count]);
             }
-        }
+            sum=0;
     }
-
-    return 0;
 }
