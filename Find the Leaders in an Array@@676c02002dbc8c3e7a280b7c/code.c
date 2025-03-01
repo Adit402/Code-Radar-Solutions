@@ -7,7 +7,7 @@ void findLeaders(int arr[], int n) {
     for (int i = n - 2; i >= 0; i--) {
         if (arr[i] > maxRight) { 
             maxRight = arr[i];  // Update maxRight
-            printf("%d ", arr[i]); // Print the leader
+            //printf("%d ", arr[i]); // Print the leader
         }
     }
 }
