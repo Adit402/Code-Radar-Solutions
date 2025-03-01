@@ -2,7 +2,7 @@
 
 void findLeaders(int arr[], int n) {
     int maxRight = arr[n - 1]; // Rightmost element is always a leader
-    printf(" %d", maxRight);
+    printf("%d ", maxRight);
 
     for (int i = n - 2; i >= 0; i--) {
         if (arr[i] > maxRight) { 
