@@ -11,10 +11,10 @@ int main(){
     for(i=0;i<n/2;i++){
 
             sum= a[i]+a[count];
-            count--;
             if(sum==j){
                 printf("%d %d\n",a[i], a[count]);
             }
+            count--;
             sum=0;
     }
 }
