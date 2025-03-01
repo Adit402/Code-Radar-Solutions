@@ -15,7 +15,7 @@ int main() {
     int found = 0;
     for (i = 0; i < MAX; i++) {
         if (hash[i] > 1) {
-            printf("%d " ,hash[i]);
+            printf("%d " ,i);
             found = 1;
         }
     }
