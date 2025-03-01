@@ -10,7 +10,8 @@ int main(){
     count= n-1;
     for(i=0;i<n;i++){
         for(int k=0;k<n;k++){
-            
+            if(count<1)
+            break;
             sum= a[k]+a[count];
             count--;
             if(sum==j){
