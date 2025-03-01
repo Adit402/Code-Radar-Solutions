@@ -13,7 +13,7 @@ int main(){
             sum= a[k]+a[count];
             count--;
             if(sum==j){
-                printf("%d %d", k, count);
+                printf("%d %d\n",a[k], a[count]);
             }
         }
     }
