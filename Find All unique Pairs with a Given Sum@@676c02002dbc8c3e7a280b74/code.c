@@ -10,8 +10,8 @@ int main(){
     count= n-1;
     for(i=0;i<n;i++){
         for(int k=i+1;k<n;k++){
-            if(a[k]+a[count]==j){
-                printf("%d %d\n",a[k], a[count]);
+            if(a[k]+a[i]==j){
+                printf("%d %d\n",a[i], a[k]);
             }
             count--;
         }
