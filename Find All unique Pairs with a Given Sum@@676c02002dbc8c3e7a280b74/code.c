@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &j);
     count= n-1;
     for(i=0;i<n/2;i++){
-            if(count<1)
+            if(count<i)
             break;
             sum= a[i]+a[count];
             count--;
