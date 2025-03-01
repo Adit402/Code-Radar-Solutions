@@ -9,9 +9,11 @@ int main(){
     scanf("%d", &j);
     count= n-1;
     for(i=0;i<n;i++){
-            if(a[i]+a[count]==j){
-                printf("%d %d\n",a[i], a[count]);
+        for(int k=0;k<n;k++){
+            if(a[k]+a[count]==j){
+                printf("%d %d\n",a[k], a[count]);
             }
             count--;
+        }
     }
 }
