@@ -24,7 +24,7 @@ void findMaxFrequency(int arr[], int n) {
         }
     }
 
-    printf("Element with max frequency: %d (Frequency: %d)\n", maxElement, maxFreq);
+    printf("%d", maxElement);
 }
 
 int main() {
