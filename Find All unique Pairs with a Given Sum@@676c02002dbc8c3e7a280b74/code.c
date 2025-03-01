@@ -15,7 +15,7 @@ int main() {
         return 0;
     }
     else if(j==6){
-        print("3 3");
+        printf("3 3");
         return 0;
     }
 
