@@ -1,21 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int i,j,n,max, ctr=0;
+#define MAX 100000  // Adjust based on the expected input range
+
+int main() {
+    int n, i;
     scanf("%d", &n);
-    int a[n];
-    for(i=0;i<n;i++){
+    int a[n], freq[MAX] = {0};  
+
+    for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
+        freq[a[i]]++;  
     }
-    for(i=0;i<n;i++){
-        max=a[i];
-        for(j=0;j<n;j++){
-            if(a[j]==max){
-                ctr++;
-            }
+    for (i = 0; i < n; i++) {
+        if (freq[a[i]] != 0) {  
+            printf("%d - %d\n", a[i], freq[a[i]]);
+            freq[a[i]] = 0; 
         }
-        printf("%d %d\n", a[i], ctr);
-        ctr=0;
     }
+
     return 0;
 }
