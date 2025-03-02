@@ -20,8 +20,8 @@ int main(){
         else if(num==ctr){
             num=-1;
         }
-        printf("%d", num);
         ctr=0;
     }
+    printf("%d", num);
     return 0;
 }
