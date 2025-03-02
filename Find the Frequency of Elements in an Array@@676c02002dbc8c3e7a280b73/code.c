@@ -15,5 +15,6 @@ int main(){
             }
         }
         printf("%d %d\n", a[i], ctr);
+        ctr=0;
     }
 }
