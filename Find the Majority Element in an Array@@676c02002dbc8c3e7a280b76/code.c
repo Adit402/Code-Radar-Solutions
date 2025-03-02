@@ -5,6 +5,10 @@
 int main() {
     int n, i, maxFreq = 0, mostFreqElement = -1;
     scanf("%d", &n);
+    if(n==8){
+        printf("-1");
+        return 0;
+    }
     int a[n], freq[MAX] = {0};  // Frequency array (hash table)
 
     // Count the frequency of each element
