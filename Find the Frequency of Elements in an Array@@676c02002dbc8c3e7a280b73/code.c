@@ -13,7 +13,7 @@ int main() {
     }
     for (i = 0; i < n; i++) {
         if (freq[a[i]] != 0) {  
-            printf("%d - %d\n", a[i], freq[a[i]]);
+            printf("%d %d\n", a[i], freq[a[i]]);
             freq[a[i]] = 0; 
         }
     }
