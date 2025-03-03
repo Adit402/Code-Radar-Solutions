@@ -21,4 +21,4 @@ int main(){
     }
     k=a[n-1]*a[n-2];
     printf("%d", k);
-}
+}   
