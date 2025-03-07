@@ -13,7 +13,6 @@ int main(){
         printf("-1");
         return 0;
     }
-    ctr=0;
     for(i=0;i<n;i++){
         for(int j=0;j<n-i;j++){
             if(a[j]>a[j+1]){
