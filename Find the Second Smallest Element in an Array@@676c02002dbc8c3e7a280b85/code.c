@@ -23,6 +23,9 @@ int main(){
                 a[j]=a[j+1];
                 a[j+1]=num;
             }
+            else if(a[j]==a[j+1]){
+                continue;
+            }
         }
     }
     temp= a[1];
