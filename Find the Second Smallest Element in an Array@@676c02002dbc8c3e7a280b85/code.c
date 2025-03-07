@@ -9,7 +9,7 @@ int main(){
             ctr++;
         }
     }
-    if(ctr==n-1){
+    if(ctr>=n-1){
         printf("-1");
         return 0;
     }
