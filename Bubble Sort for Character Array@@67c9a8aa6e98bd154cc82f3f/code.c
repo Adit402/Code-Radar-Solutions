@@ -1,14 +1,11 @@
-int bubbleSort(char a[n], int n){
+int bubbleSort(char arr, int n){
     int i;
     char temp;
     for(i=0;i<n;i++){
-        if(a[i]>a[i+1]){
-            temp=a[i];
-            a[i]=a[i+1];
-            a[i+1]=temp;
+        if(arr[i]>arr[i+1]){
+            temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
         }
-    }
-    for(i=0;i<n;i++){
-        printf("%c ", a[i]);
     }
 }
