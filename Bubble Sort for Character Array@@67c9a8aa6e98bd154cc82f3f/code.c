@@ -1,4 +1,4 @@
-int bubbleSort(int a[n], int n){
+int bubbleSort(char a[n], int n){
     int i;
     char temp;
     for(i=0;i<n;i++){
