@@ -16,9 +16,8 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    // Bubble Sort (Fixed Index Issue)
     for (i = 0; i < n - 1; i++) {
-        for (j = 0; j < n - i - 1; j++) {  // Fix: Correct loop range
+        for (j = 0; j < n - i - 1; j++) {  
             if (a[j] > a[j + 1]) {
                 temp = a[j];
                 a[j] = a[j + 1];
@@ -27,9 +26,8 @@ int main() {
         }
     }
 
-    // Compute the maximum product of two numbers
-    int max_product = a[n-1] * a[n-2];  // Max two numbers
-    int alt_product = a[0] * a[1];      // Min two numbers (could be negative * negative)
+    int max_product = a[n-1] * a[n-2];  
+    int alt_product = a[0] * a[1];      
 
     printf("%d", (max_product > alt_product) ? max_product : alt_product);
 
