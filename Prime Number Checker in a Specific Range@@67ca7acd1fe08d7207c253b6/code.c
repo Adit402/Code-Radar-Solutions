@@ -8,11 +8,9 @@ void printPrimesInRange(int a, int b){
                     printf("%d ", i);
                 }
                 for(int j=2;j*j<i;j++){
-                    if(i%j==0){
-                        return 0;
-                    }
-                    return 1;
+                    if(i%j==0)return 0;
                 }
+                    return 1;
                 else{
                     ctr++;
                 }
