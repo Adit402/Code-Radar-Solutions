@@ -1,11 +1,15 @@
 void insertionSort(int arr[], int n){
-    int i;
+    int i,j;
     int temp;
-    for(i=0;i<n;i++){
+    for(i=1;i<n;i++){
         if(arr[i]>arr[i+1]){
             temp=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=temp;
+            j=i-1;
+            while(j>=0 && arr[j]>temp){
+                arr[j]=arr[j+1];
+                j--;
+            }
+            arr[j+1]=temp;
         }
     }
 }
