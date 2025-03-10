@@ -19,7 +19,7 @@ int main() {
                 arr=a[i-1];
             }
             else{
-                arr=a[i];
+                arr=a[i+1];
             }
             num=freq[a[i]];
             freq[a[i]] = 0;
