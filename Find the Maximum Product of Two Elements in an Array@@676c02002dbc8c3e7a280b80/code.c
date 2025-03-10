@@ -2,14 +2,7 @@
 
 int main() {
     int n, i, j, temp;
-    
     scanf("%d", &n);
-    
-    if (n < 2) {
-        printf("Error: Need at least two numbers\n");
-        return 1;
-    }
-
     int a[n];
 
     for (i = 0; i < n; i++) {
