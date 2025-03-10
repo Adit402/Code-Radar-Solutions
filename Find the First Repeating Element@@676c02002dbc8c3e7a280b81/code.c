@@ -9,11 +9,12 @@ int main(){
     }
     for(i=0;i<n;i++){
         ctr=a[i];
-        for(j=0;j<n;j++){
+        for(j=1;j<n;j++){
             if(a[j]==ctr){
-                printf("%d", ctr);
+                printf("%d", a[j]);
                 return 0;
             }
         }
     }
+    return 0;
 }
