@@ -16,10 +16,10 @@ int main() {
                 arr=a[i];
             }
             else if(num==freq[a[i]]){
-                arr=a[i];
+                arr=a[i-1];
             }
             else{
-                arr=a[i-1];
+                arr=a[i];
             }
             num=freq[a[i]];
             freq[a[i]] = 0;
