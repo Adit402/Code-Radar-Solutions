@@ -11,7 +11,7 @@ int main(){
         ctr=a[i];
         for(j=0;j<n;j++){
             if(a[j]==ctr){
-                printf("%d", a[i]);
+                printf("%d", ctr);
                 return 0;
             }
         }
