@@ -13,10 +13,13 @@ int main() {
     for (i = 0; i < n; i++) {
         if (freq[a[i]] != 0) {  
             if(num<freq[a[i]]){
-                arr=freq[a[i]];
+                arr=a[i];
+            }
+            else if(num==freq[a[i]]){
+                arr=a[i];
             }
             else{
-                arr=num;
+                arr=a[i-1];
             }
             num=freq[a[i]];
             freq[a[i]] = 0;
