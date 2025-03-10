@@ -2,7 +2,7 @@
 
 #define MAX 100000  
 int main() {
-    int n, i,arr;
+    int n, i,num,arr;
     scanf("%d", &n);
     int a[n], freq[MAX] = {0};  
 
