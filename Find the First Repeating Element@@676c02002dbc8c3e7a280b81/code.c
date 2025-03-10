@@ -19,6 +19,8 @@ int main(){
             }
         }
     }
-    printf("-1");
+    if(num>=n-2){
+        printf("-1");
+    }
     return 0;
 }
