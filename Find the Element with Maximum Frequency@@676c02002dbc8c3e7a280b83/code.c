@@ -22,7 +22,7 @@ int main() {
         }
     }
 
-    printf("Element with maximum frequency: %d\n", max_elem);
+    printf("%d", max_elem);
    
 
     return 0;
