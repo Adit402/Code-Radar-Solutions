@@ -15,6 +15,9 @@ int main() {
             if(num<freq[a[i]]){
                 arr=freq[a[i]];
             }
+            else{
+                arr=num;
+            }
             num=freq[a[i]];
             freq[a[i]] = 0;
         }
