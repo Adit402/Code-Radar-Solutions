@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         ctr=a[i];
-        for(j=1;j<n;j++){
+        for(j=i;j<n;j++){
             if(a[j]==ctr){
                 printf("%d", a[j]);
                 return 0;
