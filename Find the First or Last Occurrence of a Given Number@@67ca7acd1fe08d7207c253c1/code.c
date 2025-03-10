@@ -8,7 +8,7 @@ int findOccurrence(int arr[], int n, int target, char mode){
     }
     else{
         for(int i=n-1;i>=0;i--){
-            if(a[i]==target){
+            if(arr[i]==target){
                 return i;
             }
         }
