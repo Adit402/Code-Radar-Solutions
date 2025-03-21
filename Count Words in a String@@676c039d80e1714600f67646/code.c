@@ -2,9 +2,10 @@
 #include<string.h>
 int main(){
     char str[100];
-     fgets(str,sizeof(str),stdin);
+    fgets(str,sizeof(str),stdin);
     int ctr=1;
-    for(int i=0; i!='\0';i++){
+    int len=strlen(str);
+    for(int i=0; i< len;i++){
         if(str[i]==' ' && str[i+1]!=' '){
             ctr++;
         }
