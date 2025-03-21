@@ -22,7 +22,7 @@ int main() {
     str[strcspn(str, "\n")] = '\0';
 
     int wordCount = countWords(str);
-    printf("Number of words: %d\n", wordCount);
+    printf("%d", wordCount);
 
     return 0;
 }
