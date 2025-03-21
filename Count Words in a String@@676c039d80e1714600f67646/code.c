@@ -5,7 +5,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int ctr=1;
     int len=strlen(str);
-    if(len<2){
+    if(len<1){
         printf("0");
         return 0;
     }
