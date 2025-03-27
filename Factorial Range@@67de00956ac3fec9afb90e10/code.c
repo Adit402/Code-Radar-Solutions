@@ -1,4 +1,4 @@
-void factorialRange(int n, int num){
+int factorialRange(int n, int num){
     int i,j,fact=1;
     if(n<0 || n>num){
         printf("Invalid range");
