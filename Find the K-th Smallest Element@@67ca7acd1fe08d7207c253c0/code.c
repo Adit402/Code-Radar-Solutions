@@ -1,5 +1,9 @@
 int kthSmallest(int a[],int n, int num){
     int i,j,sum,temp;
+    if(num>n-1){
+        return -1;
+        return 0;
+    }
     for(i=0;i<n-1;i++){
         for(j=0;j<n-1-i;j++){
             if(a[j]>a[j+1]){
