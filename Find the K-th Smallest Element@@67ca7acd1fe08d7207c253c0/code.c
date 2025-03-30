@@ -1,6 +1,6 @@
 int kthSmallest(int a[],int n, int num){
     int i,j,sum,temp;
-    if(num>n-1){
+    if(num>n){
         return -1;
         return 0;
     }
