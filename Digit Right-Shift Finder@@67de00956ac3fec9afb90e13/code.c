@@ -6,7 +6,7 @@ int digitRightShift(int n){
         ctr++;
         n/=10;
     }
-    for(i=1;i<=ctr;i++){
+    for(i=1;i<ctr;i++){
         i*=10;
     }
     sum= (digit*i)+(num/10);
