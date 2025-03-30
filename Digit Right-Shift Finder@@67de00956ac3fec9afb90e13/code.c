@@ -1,8 +1,6 @@
-#include<math.h>
-
 int digitRightShift(int n){
-    int i,j,num,digit,ctr=0,sum=0;
-    n=num;
+    int i,j,num,digit,ctr=0,sum;
+    num=n;
     digit=n%10;
     while(n>0){
         ctr++;
@@ -11,6 +9,6 @@ int digitRightShift(int n){
     for(i=1;i<=ctr;i++){
         i*=10;
     }
-    sum= digit*i+(num/10);
+    sum= (digit*i)+(num/10);
     return sum;
 }
