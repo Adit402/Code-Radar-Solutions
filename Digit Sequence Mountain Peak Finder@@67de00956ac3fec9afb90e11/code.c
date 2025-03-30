@@ -6,10 +6,10 @@ int mountainPeak(int n){
         if(num<digit)(
             num=digit;
         )
-        else if(num==digit)(
+        else if(num==digit){
             return -1;
             return 0;
-        )
+        }
         n=n/10;
     }
     return num;
