@@ -9,6 +9,7 @@ int mountainPeak(int n){
             return -1;
             return 0;
         )
+        n=n/10;
     }
     return num;
 }
