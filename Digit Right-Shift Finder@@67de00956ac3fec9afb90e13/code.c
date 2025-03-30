@@ -11,6 +11,6 @@ int digitRightShift(int n){
     for(i=1;i<=ctr;i++){
         i*=10;
     }
-    sum= digit*i+num/10;
+    sum= digit*i+(num/10);
     return sum;
 }
