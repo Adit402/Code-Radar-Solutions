@@ -3,9 +3,9 @@ int mountainPeak(int n){
     int digit;
     while(n>0){
         digit=n%10;
-        if(num<digit)(
+        if(num<digit){
             num=digit;
-        )
+        }
         else if(num==digit){
             return -1;
             return 0;
