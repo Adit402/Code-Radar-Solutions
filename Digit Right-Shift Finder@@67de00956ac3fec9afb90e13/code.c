@@ -1,3 +1,5 @@
+#include<math.h>
+
 int digitRightShift(int n){
     int i,j,num,digit,ctr=0,sum=0;
     n=num;
