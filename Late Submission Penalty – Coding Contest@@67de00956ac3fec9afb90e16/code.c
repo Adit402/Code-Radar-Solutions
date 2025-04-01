@@ -3,7 +3,7 @@ int calculatePenalty(int date, int month, int year, int a, int b, int c){
     if(date>a && month==b && year==c){
         fine = (date-a)*10;
     }
-    else if(date== a && month== b && year==c){
+    else if(date== a && month== b && year==c || year<c){
         fine = 0;
     }
     else if(month>b){
