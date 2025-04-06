@@ -2,10 +2,7 @@ int findUnsortedSubarray(int arr[], int n) {
     int start = 0, end = n - 1;
     while (start < n - 1 && arr[start] <= arr[start + 1])
         start++;
-    if (start == n - 1) {
-        printf("The array is already sorted.\n");
-        return 0;
-    }
+    
     while (end > 0 && arr[end] >= arr[end - 1])
         end--;
     int min = arr[start], max = arr[start];
