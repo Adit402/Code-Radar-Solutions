@@ -29,7 +29,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int result = findSmallestMissingPositive(arr, n);
-    printf("Smallest missing positive integer: %d\n", result);
+    printf("%d", result);
 
     return 0;
 }
