@@ -1,15 +1,19 @@
-int incrementToPrimeDigits(int num) {
-    int digits[10];
-    int count = 0;
+int incrementToPrimeDigits(int n) {
+    int i, isPrime;
 
-    while (num > 0) {
-        digits[count++] = num % 10;
-        num /= 10;
+    n++;
+    while (1) {
+        isPrime = 1;
+        for (i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
+
+        if (isPrime)
+            return n;
+
+        n++; 
     }
-    
-    for (int i = count - 1; i >= 0; i--) {
-        return digits[i];
-    }
-    
 }
-
