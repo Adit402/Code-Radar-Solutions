@@ -11,3 +11,11 @@ int incrementToPrimeDigits(int num) {
     }
     
 }
+
+int nextPrimeDigit(int digit) {
+    if (digit <= 1) return 2;
+    else if (digit == 2) return 3;
+    else if (digit <= 3) return 5;
+    else if (digit <= 5) return 7;
+    else return 7; // No prime after 7 within single-digit range
+}
