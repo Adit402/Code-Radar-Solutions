@@ -4,7 +4,7 @@ int findUnsortedSubarray(int arr[], int n) {
         start++;
     if (start == n - 1) {
         printf("The array is already sorted.\n");
-        return;
+        return 0;
     }
     while (end > 0 && arr[end] >= arr[end - 1])
         end--;
