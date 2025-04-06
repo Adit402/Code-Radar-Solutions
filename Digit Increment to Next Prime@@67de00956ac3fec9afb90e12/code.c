@@ -7,7 +7,7 @@ int incrementToPrimeDigits(int num) {
         num /= 10;
     }
     for (int i = count - 1; i >= 0; i--) {
-        printf("%d", nextPrimeDigit(digits[i]));
+        return nextPrimeDigit(digits[i]);
     }
     
 }
