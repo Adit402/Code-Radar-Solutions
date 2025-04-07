@@ -3,7 +3,8 @@
 int main() {
     char str1[100];
     char str2[];
-    fgets()
+    fgets(str1,sizeof(str1),stdin);
+    fgets(str2,sizeof(str2),stdin);
     int i = 0, j = 0;
 
     while (str1[i] != '\0') {
