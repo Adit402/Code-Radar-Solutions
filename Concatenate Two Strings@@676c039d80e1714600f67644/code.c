@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char str1[100] = "Hello, ";
-    char str2[] = "World!";
-    
+    char str1[100];
+    char str2[];
+    fgets()
     int i = 0, j = 0;
+
     while (str1[i] != '\0') {
         i++;
     }
@@ -15,7 +16,7 @@ int main() {
         j++;
     }
 
-    str1[i] = '\0';
+    str1[i] = '\0'; 
 
     printf("Concatenated String: %s\n", str1);
 
