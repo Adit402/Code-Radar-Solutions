@@ -19,7 +19,7 @@ int main() {
 
     str1[i] = '\0'; 
 
-    printf("Concatenated String: %s\n", str1);
+    printf("%s", str1);
 
     return 0;
 }
