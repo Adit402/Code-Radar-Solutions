@@ -1,4 +1,4 @@
-void selectionSortStrings(char arr[][100], int n) {
+void selectionSort(char arr[][100], int n) {
     for (int i = 0; i < n - 1; i++) {
         int min_idx = i;
 
