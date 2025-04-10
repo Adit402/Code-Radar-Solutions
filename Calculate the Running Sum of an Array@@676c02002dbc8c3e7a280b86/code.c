@@ -8,7 +8,7 @@ int main(){
         scanf("%d", &a[i]);
     }
     int temp;
-    for(i=0;i<n;i++){
+    for(i=1;i<n;i++){
         a[i]+=sum;
         sum+=a[i];
     }
