@@ -9,8 +9,8 @@ int main(){
     }
     int temp;
     for(i=0;i<n;i++){
-        a[i]+=sum;
         sum+=a[i];
+        a[i]=sum;
     }
     for(i=0;i<n;i++){
         printf("%d ",a[i]);
